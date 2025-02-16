@@ -43,14 +43,15 @@
 # print(say_hello())
 
 
-def decorator(func):
-    def wrap():
-        val = int(input("Enter number B: "))
-        return func() + val
-    return wrap
+# def decorator(func):
+#     def wrap():
+#         val1 = func()
+#         val2 = int(input("Enter number B: "))
+#         return  val1 + val2
+#     return wrap
     
-@decorator
-def sum_of():
-    return int(input("Enter number A: "))
+# @decorator
+# def sum_of():
+#     return int(input("Enter number A: "))
 
-print(sum_of())  
+# print(sum_of())  
